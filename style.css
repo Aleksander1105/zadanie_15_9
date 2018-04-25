@@ -1,0 +1,40 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #000;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 10px auto;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+input {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.userList {
+	margin-top: 50px;
+}
+
+.users {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.users a {
+	text-decoration: none;
+	color: #fff;
+	margin-top: 10px;
+	font-weight: bold;
+}
